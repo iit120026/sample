@@ -1,8 +1,26 @@
 {
-  "name": "socket-chat-example",
-  "version": "0.0.1",
+  "name": "priyanthan",
+  "version": "1.0.0",
   "description": "my first socket.io app",
   "dependencies": {
-  "express": "4.10.2"
-  }
+    "express": "4.10.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iit120026/sample.git"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "tpj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iit120026/sample/issues"
+  },
+  "homepage": "https://github.com/iit120026/sample#readme"
 }
