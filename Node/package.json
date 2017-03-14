@@ -9,7 +9,7 @@
     "node": "4.1.1"
   },
   "scripts": {
-    "start": "Node/node server.js"
+    "start": "node server.js"
   },
   "main": "server.js",
   "devDependencies": {},
