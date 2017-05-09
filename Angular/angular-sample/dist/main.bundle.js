@@ -72,7 +72,7 @@ var SpaceComponent = (function () {
     SpaceComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_5" /* Component */])({
             selector: 'app-space',
-            template: "\n    <p>\n      space Works!\n    </p>\n    <div *ngFor=\"let space of spaces\">\n      <h1>{{space?.name}}</h1>\n    </div>\n  ",
+            template: "\n    <div *ngFor=\"let space of spaces\">\n      <h1>{{space?.name}}</h1>\n    </div>\n  ",
             styles: []
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__space_service__["a" /* SpaceService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_0__space_service__["a" /* SpaceService */]) === 'function' && _a) || Object])
@@ -137,7 +137,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'app works!';
+        this.title = 'welcome folks!';
     }
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
