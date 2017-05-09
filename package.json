@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "my first socket.io app",
   "dependencies": {
-    "express": "4.10.2"
+    "express": "4.10.2",
+	"mongodb": "^2.2"
   },
   "engines": {
     "node": "4.1.1"
